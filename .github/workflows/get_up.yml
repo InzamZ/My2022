@@ -3,9 +3,9 @@ name: GET UP
 on:
   workflow_dispatch:
     inputs:
-      weather:
+      message:
         description: 'weather message'
-        required: true
+        required: false
         type: string
 
 jobs:
