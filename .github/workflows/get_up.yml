@@ -3,9 +3,10 @@ name: GET UP
 on:
   workflow_dispatch:
     inputs:
-      message:
+      weather:
         description: 'weather message'
         required: true
+        type: string
 
 jobs:
   sync:
