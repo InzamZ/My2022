@@ -5,7 +5,7 @@ on:
     inputs:
       message:
         description: 'weather message'
-        required: false
+        required: true
 
 jobs:
   sync:
