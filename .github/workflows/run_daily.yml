@@ -49,5 +49,6 @@ jobs:
           commit-message: "Refresh README (2022 NUM Daily)"
           files: README.md
           rebase: "true"
+          force-add: true
           name: ${{ env.GITHUB_NAME }}
           email: ${{ env.GITHUB_EMAIL }}
