@@ -66,7 +66,7 @@ def main(github_token, repo_name, weather_message, tele_token, tele_chat_id):
         weather_message = f"现在的天气是{weather_message}\n"
         body = weather_message + early_message
     if not is_get_up_early:
-        body += "起晚了,要注意休息哦"
+        body += "\r\n起晚了,要注意休息哦"
         # send to telegram
         # if tele_token and tele_chat_id:
         #     requests.post(
